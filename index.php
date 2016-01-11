@@ -30,7 +30,7 @@ $six = 0;
 
 // Running for loop ( e.g. rolling the dice )
 for ($i=0; $i < $times; $i++) { 
-	$number = rand(0, 6);
+	$number = rand(1, 6);
 	echo $number . "<br/>";
 	
 	// Checking what number is shown and incrementing the corresponding variable
